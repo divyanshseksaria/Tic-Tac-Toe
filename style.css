@@ -1,0 +1,36 @@
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+body {
+    background-color: black;
+}
+
+#gameContainer {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#restartBtn {
+    width: 100px;
+    height: 50px;
+    inset: 50px;
+    background-color: wheat;
+    border-radius: 25px 25px;
+
+}
